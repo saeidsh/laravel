@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css" integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">
+
     <link rel="stylesheet" href="{{url('style.css')}}">
     <title>Hello, world!</title>
   </head>
@@ -15,19 +16,24 @@
         <a class="navbar-brand" href="#">پروژه من</a>
     </nav>
     <div class="container">
-        <comment>--------------------------------------------------------</comment>
+        {{-- ------------------------------------------- --}}
         <div class="row">
             
         </div>
-        <comment>--------------------------------------------------------</comment>
-        <div class="row">
-            <div class="form-group">
-                <form action="" method="get">
-
-                </form>
-            </div><comment>div form group</comment>
+        {{-- ------------------------------------------- --}}
+        <div class="row mt50">
+            <div class="col-md-6 offset-md-3">               
+                <form class ="" action="" method="get">
+                    <div class="form-group">
+                        <label>جستجو</label>
+                        <input type="text" name="search" class="form-control"/>
+                        <p class="form-text form-muted">محتوای مورد نظر خود را جستجو کنید</p>                        
+                    </div>  
+                    <button type="submit" class="btn btn-primary">جستجو</button>
+                </form>                
+            </div>
         </div>
-        <comment>--------------------------------------------------------</comment>
+        {{-- ------------------------------------------- --}}
         <div class="row">
             
         </div>
