@@ -7,11 +7,31 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="{{url('style.css')}}">
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <nav class="navbar sticky-top navbar-light bg-light">
+        <a class="navbar-brand" href="#">پروژه من</a>
+    </nav>
+    <div class="container">
+        <comment>--------------------------------------------------------</comment>
+        <div class="row">
+            
+        </div>
+        <comment>--------------------------------------------------------</comment>
+        <div class="row">
+            <div class="form-group">
+                <form action="" method="get">
+
+                </form>
+            </div><comment>div form group</comment>
+        </div>
+        <comment>--------------------------------------------------------</comment>
+        <div class="row">
+            
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
