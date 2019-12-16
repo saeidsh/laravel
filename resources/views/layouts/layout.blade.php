@@ -24,6 +24,7 @@
         <div class="row mt50">
             <div class="col-md-6 offset-md-3">               
                 <form class ="" action="" method="get">
+                    @csrf
                     <div class="form-group">
                         <label>جستجو</label>
                         <input type="text" name="search" class="form-control"/>
